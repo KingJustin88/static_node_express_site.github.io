@@ -1,0 +1,54 @@
+{ 
+    "projects": [
+        {   "id": 1,
+            "proj_name": "Random Quote Generator",
+            "desc": "Create random quotes to generate on the webpage using data structures and displaying them randomly",
+            "technologies": [ "Javascript", "HTML", "CSS"],
+            "github_url": "https://github.com/KingJustin88/Tech-Degree-Project-1.git",
+            "live_link": "https://kingjustin88.github.io/",
+            "image_url": ["/static/images/first_project.png", "/static/images/first_project_2.png", "/static/images/first_project_3.png"],
+            "cover_photo": ["/static/images/rqg_cover_photo.png"]
+        },
+        {
+            "id": 2,
+            "proj_name": "List Pagination",
+            "desc": "Appending Javascript into HTML creating a pagination list of students",
+            "technologies": [ "Javascript", "HTML", "CSS"],
+            "github_url":"https://github.com/KingJustin88/kingjustin888.github.io-treehouse_project_2",
+            "live_link": "https://kingjustin88.github.io/kingjustin888.github.io-treehouse_project_2/",
+            "image_url": ["/static/images/second_project.png", "/static/images/second_project_2.png", "/static/images/second_project_3.png"],
+            "cover_photo": ["/static/images/lp_cover_photo.png"]
+        },
+        {
+            "id": 3,
+            "proj_name": "Forms",
+            "desc": "Validation forms",
+            "technologies": [ "Javascript", "HTML", "CSS", "jQuery", "OOP"],
+            "github_url":"https://github.com/KingJustin88/kingjustin888.github.io-treehouse_project_3",
+            "live_link": "https://kingjustin88.github.io/kingjustin888.github.io-treehouse_project_3/",
+            "image_url": ["/static/images/third_project.png", "/static/images/third_project_2.png", "/static/images/third_project_3.png"],
+            "cover_photo": ["/static/images/forms_cover_photo.png"]
+        },
+        {
+            "id": 4,
+            "proj_name": "Phrase Hunter",
+            "desc": "A browser game to guess phrases",
+            "technologies": [ "Javascript", "HTML", "CSS", "jQuery"],
+            "github_url": "https://github.com/KingJustin88/phrase_hunter.github.io",
+            "live_link": "https://kingjustin88.github.io/phrase_hunter.github.io/",
+            "image_url": ["/static/images/fourth_project.png", "/static/images/fourth_project_2.png", "/static/images/fourth_project_3.png"],
+            "cover_photo": ["/static/images/phrase_hunter_cover_photo.png"]
+        },
+        {
+            "id": 5,
+            "proj_name": "Public API Request",
+            "desc": "A directory displaying random employees from a public API",
+            "technologies": [ "Javascript", "HTML", "CSS", "jQuery", "Ajax"],
+            "github_url": "https://github.com/KingJustin88/Public_API_Request.github.io",
+            "live_link": "https://kingjustin88.github.io/Public_API_Request.github.io/",
+            "image_url": ["/static/images/fifth_project.png", "/static/images/fifth_project_2.png", "/static/images/fifth_project_3.png"],
+            "cover_photo": ["/static/images/public_api_request_cover_photo.png"]
+
+        }
+    ]
+}

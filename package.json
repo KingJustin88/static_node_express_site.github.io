@@ -1,0 +1,22 @@
+{
+  "name": "treehouse-project-6",
+  "version": "1.0.0",
+  "homepage": "https://kingjustin88.github.io/static_express_proj.github.io/",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "gh-pages": "^3.0.0",
+    "nodemon": "^2.0.2",
+    "npm": "^6.14.4",
+    "pug": "^2.0.4",
+    "update": "^0.7.4"
+  }
+}
