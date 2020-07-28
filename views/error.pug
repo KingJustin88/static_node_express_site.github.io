@@ -3,8 +3,19 @@ extends layout.pug
 
 block content
     //- a reference back to home page
-    a(href='/') ← Back
-    
+    nav.grid-container.portfolio-breadcrumb
+        a(href='/') ← Back
+
     //- a friendly photo page of 404
     img(src='/static/images/404_page_not_found.jpg') 
+
+    //- error message, status and stack displayed on error page
+    nav.grid-container.portfolio-breadcrumb
+        h3 Error Message: #{message}
+        h3 Status code: #{status}
+        h3 Stack trace:
+            p #{stack}
+
+       
+
     

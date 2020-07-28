@@ -18,14 +18,24 @@ app.use('/static', express.static('public'));
 app.use(express.json());
 
 //handles errors when any route doesn't exist 
-app.use('/', (req, res) => {
-    console.log('Sorry, this route does not exist')
-    res.render('error')
+app.use((req, res, next) => {
+    const err = new Error("Route does not exist");
+    err.status = 404
+    res.render('error', {
+        message: err.message,
+        status: err.status,
+        stack: err.stack
+    });
+    console.error("Error Message:", err.message);
+    console.error("Status Code: ", err.status);
+    console.error("Stack Trace: ", err.stack);
+    next(err)
+    
 });
 
 
-app.listen(3001, () => {
-    console.log('its working on localhost:3001')
+app.listen(3002, () => {
+    console.log('its working on localhost:3002')
 })
 
 module.exports = app;

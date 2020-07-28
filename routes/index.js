@@ -22,7 +22,13 @@ router.get('/project/:id', (req, res, next) => {
         res.render('project', {project}); 
     } else {
         // friendly error page if route doesn't exist
-        res.render('error');
+        const err = new Error("Route does not exist");
+        err.status = 404
+        res.render('error', {
+            message: err.message,
+            status: err.status,
+            stack: err.stack
+        });
     }   
 });
 
